@@ -16,22 +16,21 @@ const About = () => {
       </div>
 
       <div className="lg:py-24">
-        <h2 className="text-3xl font-bold sm:text-4xl">Welcome to TaskDoc, where simplicity meets productivity</h2>
+        <h2 className="text-3xl font-bold sm:text-4xl">Welcome to TaskDoc – Where Organization Feels Effortless!</h2>
 
         <p className="mt-4 text-gray-600">
-        At TaskDoc, we believe that managing your documents and tasks should be straightforward and efficient. That's why we've created a platform that seamlessly integrates document management with to-do list functionalities, giving you the tools you need to stay organized and on top of your work.
-
+        At TaskDoc, we're on a mission to make managing your tasks and documents as simple as it is powerful. Say goodbye to clutter and chaos – with TaskDoc, you get a sleek, all-in-one platform that blends seamless document management with intuitive to-do list functionality. Stay on top of your game with ease!
         </p>
 
         <p className="mt-4 text-gray-600">
-        With a focus on user-friendly design and robust security, TaskDoc ensures that your documents and tasks are not only accessible but also protected. We're committed to helping you streamline your workflow so you can focus on what really matters.
+        Designed with you in mind, TaskDoc combines a user-friendly experience with top-tier security, ensuring your tasks and documents are always at your fingertips and fully protected. We’re here to help you master your workflow, so you can focus on what truly matters.
         </p>
 
         <a
           href="/signup"
           className="mt-8 inline-block rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-purple-600 focus:outline-none focus:ring focus:ring-yellow-400"
         >
-          Get Started Today
+          Make my account!
         </a>
       </div>
     </div>

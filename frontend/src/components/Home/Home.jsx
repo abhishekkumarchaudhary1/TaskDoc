@@ -33,14 +33,14 @@ const Home = () => {
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
             <Link
-              className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-orange-700 focus:outline-none focus:ring active:bg-orange-500 sm:w-auto"
+              className="block w-full rounded bg-purple-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-purple-700 focus:outline-none focus:ring active:bg-purple-500 sm:w-auto"
               to="/login"
             >
               Sign In
             </Link>
 
             <Link
-              className="block w-full rounded px-12 py-3 text-sm font-medium text-purple-600 shadow hover:text-orange-700 focus:outline-none focus:ring active:text-orange-500 sm:w-auto border-purple-600 border-2"
+              className="block w-full rounded px-12 py-3 text-sm font-medium text-purple-600 shadow hover:text-purple-700 focus:outline-none focus:ring active:text-purple-500 sm:w-auto border-purple-600 border-2"
               to="/signup"
             >
               Sign Up
@@ -126,17 +126,17 @@ const Home = () => {
     </div>
   </div>
 </section>
-<div className="space-y-4 pr-40 pl-40 pb-40">
-  <h1 className='text-center font-bold'>Frequently Asked Questions</h1>
+<div className="space-y-4 px-4 md:px-20 lg:px-40 pb-20">
+  <h1 className='text-center font-bold text-lg md:text-xl lg:text-2xl'>Frequently Asked Questions</h1>
 
   <details className="group [&_summary::-webkit-details-marker]:hidden" open>
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h2 className="font-medium">How can I share a document with others?</h2>
+      <h2 className="font-medium text-base md:text-lg">How can I share a document with others?</h2>
 
       <svg
-        className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+        className="w-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -146,7 +146,7 @@ const Home = () => {
       </svg>
     </summary>
 
-    <p className="mt-4 px-4 leading-relaxed text-gray-700">
+    <p className="mt-4 px-4 leading-relaxed text-sm md:text-base text-gray-700">
       To share a document, simply open it, click on the "Share" button, add the email addresses of the people you'd like to share with, adjust the permissions as needed, and hit send.
     </p>
   </details>
@@ -155,10 +155,10 @@ const Home = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h2 className="font-medium">How do I create an account on TaskDoc?</h2>
+      <h2 className="font-medium text-base md:text-lg">How do I create an account on TaskDoc?</h2>
 
       <svg
-        className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+        className="w-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -168,7 +168,7 @@ const Home = () => {
       </svg>
     </summary>
 
-    <p className="mt-4 px-4 leading-relaxed text-gray-700">
+    <p className="mt-4 px-4 leading-relaxed text-sm md:text-base text-gray-700">
       To create an account, click on "Sign Up" from the homepage, fill in your details, and verify your email to start using TaskDoc.
     </p>
   </details>
@@ -177,10 +177,10 @@ const Home = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900"
     >
-      <h2 className="font-medium">How do I update my account settings?</h2>
+      <h2 className="font-medium text-base md:text-lg">How do I update my account settings?</h2>
 
       <svg
-        className="size-5 shrink-0 transition duration-300 group-open:-rotate-180"
+        className="w-5 h-5 shrink-0 transition duration-300 group-open:-rotate-180"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -190,11 +190,12 @@ const Home = () => {
       </svg>
     </summary>
 
-    <p className="mt-4 px-4 leading-relaxed text-gray-700">
+    <p className="mt-4 px-4 leading-relaxed text-sm md:text-base text-gray-700">
       Log in and navigate to "Account Settings" from your profile page. Here, you can modify your personal information, update your password, and manage your subscription preferences.
     </p>
   </details>
 </div>
+
 
     </>
   )
